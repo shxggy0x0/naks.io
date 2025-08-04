@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>naks.io - Launching Soon</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      overflow-x: hidden;
+    }
+    .top {
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1rem;
+      color: #b0ff57;
+    }
+    .countdown {
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .countdown h1 {
+      font-size: 2rem;
+      font-weight: 300;
+    }
+    .countdown .timer {
+      font-size: 3rem;
+      letter-spacing: 4px;
+      margin: 0.5rem 0;
+    }
+    .description {
+      margin: 1rem;
+      max-width: 600px;
+      font-size: 1rem;
+      text-align: center;
+      color: #ccc;
+    }
+    .section {
+      margin-top: 4rem;
+      background: #f4f4f4;
+      color: #000;
+      border-radius: 16px;
+      padding: 2rem;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    .plant {
+      margin-top: 2rem;
+      image-rendering: pixelated;
+    }
+  </style>
+</head>
+<body>
+  <div class="top">naks.io</div>
+
+  <div class="countdown">
+    <h1>We're <em>launching in</em></h1>
+    <div class="timer" id="timer">167 : 17 : 12 : 41</div>
+  </div>
+
+  <div class="description">
+    Unlock the future of real estate with blockchain. Verify land instantly, invest transparently, and tokenize your assets securely. Welcome to naks.io
+  </div>
+
+  <div class="section">
+    HOW LAND TRANSPARENCY AND TRUST WILL CHANGE THE FUTURE
+  </div>
+
+  <div class="plant">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABW0lEQVR42mNggAIyoIXFv2f2PwMDAwMDA8OjZ8zoB+yOBqYjG/8yMjAwkLEz+OLv5GbgcTAwMDAwLNTN98diYGBgYGDg9/T8U1TgDIE/GDkH9/n17AwPDv/+fnAwMDg1vM/MvX/+WdgYGBg8N3zjw8DAwMDr4rP9n73J2BmZmZgZ//z50z8GBgYGBwMDAyMYGBi4v2PzR//z5JkYGRgZmAbW/M+MDAwMjF8xMDAwMLzW1vwnZKQxYGBgYGBg2MvDw/8Y+j7j9AMYGBoYGBqZ+uXdP+zMyMDAYGBgY6J0B+sL/P38DBgwg6zs2MTAw4NQH/v+HlYGBgYIDASkzTzSADtQAAAABJRU5ErkJggg==" alt="plant">
+  </div>
+
+  <script>
+    // Optional: Add real countdown logic here
+  </script>
+</body>
+</html>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const badge = document.querySelector("[data-framer-badge]");
+    if (badge) {
+      badge.remove();
+    }
+  });
+</script>
